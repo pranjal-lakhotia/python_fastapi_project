@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual envs
+venv/
+.env
+.env.* 
+.venv/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python tooling
+pytest_cache/
+.coverage
+
+# DB / runtime / generated
+library.json
+*.db
+*.sqlite3
+
+# package
+dist/
+build/
+*.egg-info/
